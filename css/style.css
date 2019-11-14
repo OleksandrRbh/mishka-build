@@ -343,7 +343,7 @@ template {
   font-size: 15px;
   min-width: 320px;
   width: 320px;
-  background-color: yellowgreen;
+  background-color: #ffffff;
 }
 @media (min-width: 768px) {
   .body {
