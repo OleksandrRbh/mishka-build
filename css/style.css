@@ -342,7 +342,7 @@ template {
   font-weight: 400;
   font-size: 15px;
   min-width: 320px;
-  width: 320px;
+  width: 100%;
   background-color: #ffffff;
 }
 @media (min-width: 768px) {
