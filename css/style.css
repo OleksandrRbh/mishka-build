@@ -375,8 +375,7 @@ img {
   overflow: hidden;
 }
 .button {
-  display: block;
-  width: 100%;
+  display: block;  
   padding: 16px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -900,7 +899,7 @@ img {
   padding: 10px 0;
 }
 .good-popular__image-wrapper {
-  width: 260px;
+  /*width: 260px;*/
   height: 315px;
   background-color: #f1f1f1;
   overflow: hidden;
@@ -1351,8 +1350,8 @@ img {
   margin: 0;
 }
 .contacts__map-box {
-  width: 320px;
-  height: 457px;
+  /*width: 320px;*/
+  /*height: 457px;*/
   background-color: #f1f1f1;
   margin-bottom: 40px;
   overflow: hidden;
