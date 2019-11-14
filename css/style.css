@@ -345,6 +345,12 @@ template {
   width: 100%;
   background-color: #ffffff;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 768px) {
   .body {
     width: 768px;
@@ -370,7 +376,7 @@ template {
 }
 .button {
   display: block;
-  width: 260px;
+  width: 100%;
   padding: 16px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -897,6 +903,7 @@ template {
   width: 260px;
   height: 315px;
   background-color: #f1f1f1;
+  overflow: hidden;
 }
 .good-popular__order {
   padding-top: 22px;
@@ -1348,6 +1355,7 @@ template {
   height: 457px;
   background-color: #f1f1f1;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 .contacts__write {
   margin-right: 30px;
@@ -1518,9 +1526,15 @@ template {
       -ms-flex-align: center;
           align-items: center;
   text-decoration: none;
-  color: #000000;
-  margin-left: -80px;
+  color: #000000;  
 }
+
+@media (min-width: 768px) {
+  .copyright__link {
+    margin-left: -80px;
+  }
+}
+
 .copyright__link:hover .copyright__svg {
   fill: #46c1ae;
 }
