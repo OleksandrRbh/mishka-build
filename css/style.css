@@ -1669,6 +1669,7 @@ img {
 .modal-to-cart__radio:checked + .modal-to-cart__label {
   border: 2px solid #62d1ba;
 }
+
 .modal-to-cart__button {
   background-color: #63d1bb;
   border-color: #63d1bb;
@@ -1719,6 +1720,12 @@ img {
             transform: scale(1);
   }
 }
+
+.size-select {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 768px) {
   .modal-to-cart {
     margin-left: -284px;
